@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="Web_Project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script>
+        function orderfinal() {
+            alert("Your Order has been placed")
+            window.location.href = 'Restaurant.aspx'
+        }
+    </script>
+    <script>
+        function confimation() {
+            alert("Your message has been sent")
+            window.location.href = 'Info.aspx'
+        }
+    </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <meta charset=”utf-8″>
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+    <title>Food On Wheels</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+              <div>
+            <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+                <a class="navbar-brand" href="Home.aspx">FOOD ON WHEELS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target
+                    ="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                 aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="Home.aspx">Home</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="Restaurants.aspx">Restaurants</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="Info.aspx">Info</a>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+</form>
+</body>
+</html>

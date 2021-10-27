@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Web_Project.MasterPage.WebForm5">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAACAAQDgBAAIAcAgAAAIAAAIAAAA=</HashCode>
+      <FileName>ContentPage\Gloria.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web_Project.MasterPage.WebForm1">
+    <Position X="2.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ContentPage\Home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web_Project.MasterPage.WebForm4">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgEAQAAAAAAAAEAAAAAAAAAAIAACA=</HashCode>
+      <FileName>ContentPage\Info.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web_Project.MasterPage.WebForm6">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAQDgAAAIAAAgACAIAAAIAAAA=</HashCode>
+      <FileName>ContentPage\Maizban.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web_Project.MasterPage.WebForm2">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAAAAAAAAAAAAQDgAAAIAAAgAAAIAAAIAAAA=</HashCode>
+      <FileName>ContentPage\Mcdonald.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web_Project.MasterPage.WebForm3">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ContentPage\Restaurants.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web_Project.Site1">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAABIAAAQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MasterPage\Site1.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
